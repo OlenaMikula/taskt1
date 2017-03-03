@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        	<script type="text/javascript" src="jquery.min.js"></script>
+        <title> </title>
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+</head>
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="https://olenamikula.github.io/taskt/">Dashboard</a></li>
+                <li><a href="#">Dashboard Demo</a></li>
+                <li><a href="#">Form Captures</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Administration</a></li>
+            </ul>
+        </div>
+        <div class="dashboard">
+            <div class="program"><h2>Program</h2>
+                <select>
+                    <option value="PLEASE SELECT 1">PLEASE SELECT1</option>
+                    <option value="PLEASE SELECT 2">PLEASE SELECT2</option>
+                    <option value="PLEASE SELECT 3">PLEASE SELECT3</option>
+                    <option value="PLEASE SELECT 4" c>PLEASE SELECT4</option>
+                    <option value="PLEASE SELECT 5">PLEASE SELECT5</option>
+                </select>
+            </div>
+            <div class="status">
+                <h2>Status</h2>
+                <select class="status">
+                    <option value="PLEASE SELECT 1">PLEASE SELECT1</option>
+                    <option value="PLEASE SELECT 2">PLEASE SELECT2</option>
+                    <option value="PLEASE SELECT 3">PLEASE SELECT3</option>
+                    <option value="PLEASE SELECT 4">PLEASE SELECT4</option>
+                    <option value="PLEASE SELECT 5">PLEASE SELECT5</option>
+                </select>
+            </div>
+        <form  action="/index.php" method="POST" class="search" autocomplete="off" onsubmit="if(bool_58ac150eef9e6){return false;}else{bool_58ac150eef9e6=true;return true;}">
+		    <h2>Search</h2>
+		    <div class='field'>
+		        <input type='text' name='search' value="" class='box'/>
+		    </div>
+		</form>
+		    <div class="form"><h2>Form</h2>
+                <select>
+                    <option value="PLEASE SELECT 1">PLEASE SELECT1</option>
+                    <option value="PLEASE SELECT 2">PLEASE SELECT2</option>
+                    <option value="PLEASE SELECT 3">PLEASE SELECT3</option>
+                    <option value="PLEASE SELECT 4">PLEASE SELECT4</option>
+                    <option value="PLEASE SELECT 5">PLEASE SELECT5</option>
+                </select>
+            </div>
+            <h2>Date</h2>
+            <div class="data">
+                <input type="text" id="datepicker">
+            </div>
+            <div class="data" style="margin-left:-10px; margin-top:-40px;">
+                <input type="text" id="datepicker">
+            </div>
+            <div class="button">
+                <button><img src="img/magnifier.png"><p style="color:white;"> SEARCH</p></button>
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
